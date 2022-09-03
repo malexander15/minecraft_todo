@@ -1,6 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <%= render @todo_list %>
+<%= render "todo_items/form" %>
 
 <div>
   <%= link_to "Edit this todo list", edit_todo_list_path(@todo_list) %> |

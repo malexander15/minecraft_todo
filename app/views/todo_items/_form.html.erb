@@ -1,0 +1,5 @@
+<%= form_for([@todo_list, @todo_list.todo_items.build]) do |f| %>
+ <%= f.text_field :notes, placeholder: "Add details about your build such as coordinates etc..." %>
+ <%= f.select(:blocks, options_for_select([['Paid', 'Paid'], ['Pending', 'Pending']])) %>
+ <%= f.submit %>
+<% end %>
