@@ -20,6 +20,14 @@ gem "importmap-rails"
 
 gem 'bootstrap', '~> 5.0.2'
 
+gem 'hpricot', '~> 0.8.6'
+
+gem 'mechanize', '~> 2.8', '>= 2.8.5'
+
+gem 'yaml', '~> 0.2.0'
+
+gem 'minecraft_items', path: '../minecraft_items'
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
