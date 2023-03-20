@@ -118,6 +118,7 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
+    minecraft_items (0.1.3)
     mini_mime (1.1.2)
     minitest (5.16.3)
     msgpack (1.5.6)
@@ -136,6 +137,8 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
+    nokogiri (1.13.8-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
     popper_js (2.11.5)
@@ -229,6 +232,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  x86_64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
@@ -238,6 +242,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  minecraft_items
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   selenium-webdriver
