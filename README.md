@@ -1,25 +1,7 @@
-# README
+# Minecraft TODO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A single page Rails application for organizing Minecraft ToDo list.
 
-Things you may want to cover:
+Todo lists are listed on the index page and created from an AJax form and updated asynchronosly after updating.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# minecraft_todo
+Originally, this application was to include list of all MineCraft item blocks, but that functionality was rolled into its own gem called [Minecraft Items](https://github.com/malexander15/minecraft_items)
