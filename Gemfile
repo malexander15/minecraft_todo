@@ -31,6 +31,8 @@ gem "jbuilder"
 
 gem 'minecraft_items'
 
+gem 'fomantic-ui-sass'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
